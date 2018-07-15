@@ -3,3 +3,7 @@
 function distanceFromHqInBlocks(distance) {
   return Math.abs(distance-42);
 }
+
+function distanceFromHqInFeet(distance) {
+  distanceFromHqInBlocks(distance) * 264;
+}
